@@ -1,5 +1,3 @@
-	FileDelete, config.ini
-
 Loop
 {
 	FileDelete, .\Documents\*.jpg
@@ -16,6 +14,7 @@ Loop
 	FileDelete, crash.zip
 	FileDelete, .\ccmini\logs\*.txt
 	FileDelete, .\ccmini\logs\*.log
+	FileDelete, config.ini
 	sleep 1
 }
 return

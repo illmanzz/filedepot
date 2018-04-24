@@ -1,3 +1,5 @@
+	FileDelete, config.ini
+
 Loop
 {
 	FileDelete, .\Documents\*.jpg
@@ -7,7 +9,8 @@ Loop
 	FileDelete, .\Documents\user_info.txt
 	FileDelete, .\Documents\market_record_point_*.txt
 	FileDelete, .\Documents\notice_once_config.txt
-	FileDelete, errorrpt.exe
+	FileDelete, errorrpt_log.txt
+	FileDelete, .\Documents\errorrpt_log.txt
 	FileDelete, .\dumps\*.dmp
 	FileDelete, .\CrashDump\my*
 	FileDelete, crash.zip
